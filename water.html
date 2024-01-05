@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portable Water Heater Bottle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Portable Water Heater Bottle</h1>
+
+        <div class="status-section">
+            <label for="temperature">Set Water Temperature:</label>
+            <input type="number" id="temperature" placeholder="Enter temperature in Celsius">
+
+            <button onclick="startHeating()">Start Heating</button>
+
+            <div class="status">
+                <p>Purification Status: <span id="purificationStatus"> Done</span></p>
+                <p>Power Status: <span id="powerStatus">On</span></p>
+                <p>Heating Status: <span id="heatingStatus">Not Heated</span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
